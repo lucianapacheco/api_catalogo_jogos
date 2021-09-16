@@ -1,15 +1,14 @@
-﻿using ExemploApiCatalogoJogos.Entities;
-using ExemploApiCatalogoJogos.Exceptions;
-using ExemploApiCatalogoJogos.InputModel;
-using ExemploApiCatalogoJogos.Repositories;
-using ExemploApiCatalogoJogos.ViewModel;
+﻿using api_catalogo_jogos.Entities;
+using api_catalogo_jogos.Exceptions;
+using api_catalogo_jogos.InputModel;
+using api_catalogo_jogos.Repositories;
+using api_catalogo_jogos.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace api_catalogo_jogos.Services
-{
+namespace api_catalogo_jogos.Services {
     public class JogoService : IJogoService
     {
         private readonly IJogoRepository _jogoRepository;
